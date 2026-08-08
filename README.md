@@ -72,8 +72,6 @@ At the end of execution, `metrics.py` logs a report to the terminal console:
 - **Storage Footprint Reduction (%)**: Percentage of disk space saved post-cleaning.
 - **Silence Trimmed (%)**: Percentage of dead air/silence removed via Voice Activity Detection.
 
-## Demo Audio
-[jNQXAC9IVRw_cleaned.wav](https://github.com/user-attachments/files/30860008/jNQXAC9IVRw_cleaned.wav)
 
 
 
