@@ -1,0 +1,45 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode & cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+
+# Temporary pipeline working data & downloaded raw/processed audio
+temp_audio/
+/tmp/
+*.wav
+*.webm
+*.m4a
+*.mp3
+*.ogg
+*.flac
+*.parquet
+
+# Emulated MinIO storage data
+data/minio_emulated/
+
+# PyTorch / Torch Hub cache files
+.cache/
+
+# Environment files with sensitive credentials
+.env
+.env.local
+
+# IDE & OS configuration files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Docker / Build artifacts
+*.tar
+*.gz
